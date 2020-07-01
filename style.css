@@ -6,6 +6,11 @@ header {
   background-color: black;
 }
 
+h1 {
+  font-family:"Comic Sans MS", serif;
+  font-size:77px;
+}
+
 .portfolio-image {
   border: 1px solid #000;
   display: block;
