@@ -1,0 +1,81 @@
+header {
+  border: 1px solid #000;
+  color:white;
+  font-family:"Comic Sans MS", serif;
+  text-align: center;
+  background-color: black;
+}
+
+.portfolio-image {
+  border: 1px solid #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 50%
+}
+
+main {
+  color:white;
+  border: 1px solid #000;
+  font-family: Courier, serif;
+  text-align: center;
+  background-color: black;
+}
+
+div {
+  color: white;
+  border: 1px solid #000;
+  font-family: Arial, serif;
+  text-align: center; 
+  background-color: black;
+}
+
+.about-text {
+  padding: 10px 500px;
+  text-align:center-justified;
+  /* made a custom class for my about text to center it better*/
+}
+
+article {
+  color: white;
+  border: 1px solid #000;
+  font-family: Arial, serif;
+  text-align: center; 
+  background-color: black;
+}
+
+hr {
+  height: 3px; 
+  background-color:#fff;
+  border: 1px solid black;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+ul {
+  text-align:left;
+  display:inline-block;
+  list-style-position:outside;
+}
+
+ol {
+  text-align:left;
+  display:inline-block;
+  list-style-position:outside;
+}
+
+/* consider combining ul/ol unless there's a reason to keep them separate? */
+
+footer {
+  color:white;
+  border: 10px solid #000;
+  font-family:"Comic Sans MS", serif;
+  text-align: left;
+  background-color:black;
+  }
+
+  a:link {color:blue}
+  a:visited {color:blueviolet}
+  a:hover {color:green}
+  a:active {color:red}
